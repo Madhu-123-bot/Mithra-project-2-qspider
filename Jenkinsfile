@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        EC2_IP = '18.117.183.104'
+        EC2_IP = '3.17.184.208'
         USER = 'ubuntu'
         KEY_PATH = '/var/lib/jenkins/.ssh/privatekey.pem' // Updated path on Jenkins EC2
         IMAGE_NAME = 'myimage-1'
